@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 600, 800;
+  font-family: "Figtree", sans-serif;
+}
+body {
+  background: hsl(0, 0%, 7%);
+  display: block;
+}
+.card {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(47, 88%, 63%);
+  margin: 30px;
+}
+.center-card {
+  height: 525px;
+  width: 350px;
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 10px;
+  box-shadow: 10px 10px;
+}
+.container-card-header {
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  border-radius: 10%;
+}
+.card-header {
+  height: 200px;
+}
+.btn {
+  display: flex;
+  /* justify-content: center; */
+  margin: 25px;
+}
+.btn button {
+  color: hsl(0, 0%, 7%);
+  background: hsl(47, 88%, 63%);
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  font-weight: 800;
+}
+.write-up p {
+  margin: 25px;
+  font-weight: 600;
+}
+h1 {
+  margin: 25px;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+p {
+  margin: 25px;
+}
+.info {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+.info img{
+  height: 30px;
+}
+
+@media (max-width: 375px) {
+  .card {
+    margin: 0;
+  }
+  .center-card {
+    width: 300px;
+  }
+  svg {
+    border-radius: 18%;
+    width: 250px;
+  }
+ 
+}
